@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class Plantilla {
 
-    private static final int MAX_JUGADORES = 5;
+    private static final int MAX_JUGADORES = 3;
 
     private double presupuesto;
     private final List<Jugador> jugadores = new ArrayList<>();

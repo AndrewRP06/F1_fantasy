@@ -98,14 +98,15 @@ public class Principal extends javax.swing.JFrame {
         cmbEquipo.setPreferredSize(new Dimension(160, 30));
 
         JButton btnContinuar = new JButton("Continuar");
-        estilizarBoton(btnContinuar);
-        btnContinuar.setPreferredSize(new Dimension(120, 32));
-        btnContinuar.addActionListener(e -> {
+    btnContinuar.addActionListener(e -> {
             int año = (int) cmbAño.getSelectedItem();
             String equipo = (String) cmbEquipo.getSelectedItem();
-            JOptionPane.showMessageDialog(this, "Temporada " + año + " - " + equipo);
-        });
 
+            JOptionPane.showMessageDialog(this, "Temporada " + año + " - " + equipo);
+
+            new Jugadores().setVisible(true);
+            dispose();
+        });
         panel.add(crearEtiqueta("Temporada:"));
         panel.add(cmbAño);
         panel.add(crearEtiqueta("Equipo:"));

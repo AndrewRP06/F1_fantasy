@@ -133,14 +133,38 @@ public class Jugadores extends javax.swing.JFrame {
     }
 
       private void cargarJugadores() {
-        mercado.add(new Jugador("Max Verstappen", "Red Bull", 30.0));
-        mercado.add(new Jugador("Lando Norris", "McLaren", 28.0));
-        mercado.add(new Jugador("Charles Leclerc", "Ferrari", 26.0));
-        mercado.add(new Jugador("Lewis Hamilton", "Ferrari", 25.0));
-        mercado.add(new Jugador("George Russell", "Mercedes", 22.0));
-        mercado.add(new Jugador("Fernando Alonso", "Aston Martin", 15.0));
-        mercado.add(new Jugador("Alex Albon", "Williams", 10.0));
-        mercado.add(new Jugador("Esteban Ocon", "Haas", 8.0));
+        mercado.add(new Jugador("Max Verstappen", "Red Bull", 60.0));
+    mercado.add(new Jugador("Liam Lawson", "Red Bull", 24.0));
+
+    mercado.add(new Jugador("Lando Norris", "McLaren", 30.0));
+    mercado.add(new Jugador("Oscar Piastri", "McLaren", 34.0));
+
+    mercado.add(new Jugador("Charles Leclerc", "Ferrari", 26.0));
+    mercado.add(new Jugador("Lewis Hamilton", "Ferrari", 50.0));
+
+    mercado.add(new Jugador("George Russell", "Mercedes-Benz", 44.0));
+    mercado.add(new Jugador("Kimi Antonelli", "Mercedes-Benz", 36.0));
+
+    mercado.add(new Jugador("Fernando Alonso", "Aston Martin", 30.0));
+    mercado.add(new Jugador("Lance Stroll", "Aston Martin", 16.0));
+
+    mercado.add(new Jugador("Pierre Gasly", "Alpine", 20.0));
+    mercado.add(new Jugador("Franco Colapinto", "Alpine", 16.0));
+
+    mercado.add(new Jugador("Alex Albon", "Williams", 20.0));
+    mercado.add(new Jugador("Carlos Sainz", "Williams", 24.2));
+
+    mercado.add(new Jugador("Esteban Ocon", "Haas", 22.0));
+    mercado.add(new Jugador("Oliver Bearman", "Haas", 23.3));
+
+    mercado.add(new Jugador("Isack Hadjar", "Racing Bulls", 29.0));
+    mercado.add(new Jugador("Arvid Lindblad", "Racing Bulls", 14.5));
+
+    mercado.add(new Jugador("Nico Hulkenberg", "Audi", 16.0));
+    mercado.add(new Jugador("Gabriel Bortoleto", "Audi", 14.0));
+
+    mercado.add(new Jugador("Sergio Perez", "Cadillac", 24.0));
+    mercado.add(new Jugador("Valtteri Bottas", "Cadillac", 20.0));
   
 }
 
